@@ -1,0 +1,7 @@
+{
+  "name": "Boston Pulse",
+  "description": "An audio-first, daily podcast-style news briefing for Boston, featuring short excerpts and a calm reflection.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

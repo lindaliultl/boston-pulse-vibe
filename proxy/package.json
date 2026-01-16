@@ -1,0 +1,15 @@
+
+{
+  "name": "boston-pulse-proxy",
+  "version": "1.0.0",
+  "description": "CORS proxy for Boston Pulse RSS feeds",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
