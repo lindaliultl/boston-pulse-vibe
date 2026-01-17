@@ -13,7 +13,7 @@ function isEditorial(text: string): boolean {
 
   const lowercase = cleanText.toLowerCase();
   const blacklistedPrefixes = ['photo:', 'image:', 'courtesy of', 'by ', 'credit:', 'source:', 'updated', 'published'];
-  const blacklistedKeywords = ['getty images', 'photo by', 'caption:', 'staff writer', 'associated press', 'advertisement'];
+  const blacklistedKeywords = ['getty images', 'photo by', 'caption:', 'staff writer', 'associated press', 'advertisement', 'appeared first on',];
 
   if (blacklistedPrefixes.some(p => lowercase.startsWith(p))) return false;
   if (blacklistedKeywords.some(k => lowercase.includes(k))) return false;
